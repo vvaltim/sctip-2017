@@ -24,6 +24,9 @@
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
 
+    <!-- Css customizado -->
+    <link href="css/style.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,7 +43,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">SCTIP 2017</a>
@@ -77,18 +80,20 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in"></div>
-                <div class="intro-heading"><h2 class="section-heading"> <br> <br> <br> <br> </h2></div>
+                <div class="intro-heading">
+                    <h2 class="section-heading"> <br> <br> <br> <br> </h2>
                 </div>
+            </div>
         </div>
     </header>
 
     <!-- Services Section -->
-<section id="services" class="bg-dark-green">
+    <section id="services" class="bg-dark-green">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                  <h2 class="section-heading white">Inscrições </h2>
-                  <h2 class="white">Até o dia <strong>20/10</strong></h2>
+                    <h2 class="section-heading white">Inscrições </h2>
+                    <h2 class="white">Até o dia <strong>20/10</strong></h2>
                 </div>
             </div>
             <div class="row text-center">
@@ -120,111 +125,132 @@
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
-<section id="portfolio" class="bg-light-gray">
+    <!-- Evento Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Eventos</h2>
-                  <h3 class="section-subheading text-muted">A SCTIP é feita de vários eventos. Saiba mais sobre cada um deles:</h3>
+                    <h2 class="section-heading">Eventos</h2>
+                    <h3 class="section-subheading text-muted">A SCTIP é feita de vários eventos. Saiba mais sobre cada um deles:</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/enpe-icon1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                      <h4 class="white">4º EnPE</h4>
-                      <!--<p class="text-muted">4º Encontro de Pesquisa e Extensão</p>-->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <!-- Parte do CSS que ficaria com bolinha, porem não utilizado -->
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover timeline-image img-circle" style="width:40px; height:40px; margin-left:300px; margin-top: 150px; opacity: 1;">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-1x"></i>
+                            </div>
+                        </div>
+                        <img class="img-circle img-responsive" src="img/about/prog23.jpg" style="margin:auto">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="white"> Feira de Novos Produtos</h4>
+                        <!--<p class="text-muted">Website Design</p>-->
+                <!--</div>
+                </div> -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link card-evento" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                <h2 class="remover-margem">Saiba Mais</h2>
                             </div>
                         </div>
                         <img src="img/portfolio/enpe-icon1.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                      <h4 class="white"> Feira de Novos Produtos</h4>
-                      <!--<p class="text-muted">Website Design</p>-->
+                    <div class="portfolio-caption card-evento">
+                        <h4 class="white">4º EnPE</h4>
+                        <!--<p class="text-muted">4º Encontro de Pesquisa e Extensão</p>-->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-link card-evento" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                <h2 class="remover-margem">Saiba Mais</h2>
                             </div>
                         </div>
                         <img src="img/portfolio/enpe-icon1.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                      <h4 class="white">Gincamática </h4>
-                      <!--<p class="text-muted">Website Design</p>-->
+                    <div class="portfolio-caption card-evento">
+                        <h4 class="white"> Feira de Novos Produtos</h4>
+                        <!--<p class="text-muted">Website Design</p>-->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-link card-evento" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                <h2 class="remover-margem">Saiba Mais</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/enpe-icon1.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption card-evento">
+                        <h4 class="white">Gincamática </h4>
+                        <!--<p class="text-muted">Website Design</p>-->
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link card-evento" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                <h2 class="remover-margem">Saiba Mais</h2>
                             </div>
                         </div>
                         <img src="img/portfolio/tti-icon.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                      <h4 class="white">Olimpíada Robô Cerrado</h4>
-                      <!--<p class="text-muted">Website Design</p>-->
+                    <div class="portfolio-caption card-evento">
+                        <h4 class="white">Olimpíada Robô Cerrado</h4>
+                        <!--<p class="text-muted">Website Design</p>-->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal5" class="portfolio-link card-evento" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                <h2 class="remover-margem">Saiba Mais</h2>
                             </div>
                         </div>
                         <img src="img/portfolio/tti-icon.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                      <h4 class="white">Feira de Ciências</h4>
-                      <!--<p class="text-muted">Website Design</p>-->
+                    <div class="portfolio-caption card-evento">
+                        <h4 class="white">Feira de Ciências</h4>
+                        <!--<p class="text-muted">Website Design</p>-->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal6" class="portfolio-link card-evento" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                <h2 class="remover-margem">Saiba Mais</h2>
                             </div>
                         </div>
                         <img src="img/portfolio/tti-icon.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                      <h4 class="white">TTI</h4>
-                      <!--<p class="text-muted">Website Design</p>-->
+                    <div class="portfolio-caption card-evento">
+                        <h4 class="white">TTI</h4>
+                        <!--<p class="text-muted">Website Design</p>-->
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Programação Section -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Programação </h2>
-                  <h3 class="section-subheading text-muted">Acompanhe os horários e locais dos eventos da SCTIP 2017!</h3>
+                    <h2 class="section-heading">Programação </h2>
+                    <h3 class="section-subheading text-muted">Acompanhe os horários e locais dos eventos da SCTIP 2017!</h3>
                 </div>
             </div>
             <div class="row">
@@ -331,7 +357,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                          <div class="timeline-image">
+                            <div class="timeline-image">
                                 <h4>Participe
                                     <br>das
                                     <br>atividades!</h4>
@@ -398,15 +424,21 @@
                         </ul>
                     </div>
                 </div>-->
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center col-md-offset-2 col-md-8">
-                    <p class="large white">A Semana de Ciência, Tecnologia e Inovação de Patrocínio 2017 (SCTIP 2017) é uma iniciativa da cidade de Patrocínio/MG relativa à Semana Nacional de Ciência e Tecnologia de 2017 (SNCT 2017) é organizada pela Câmara Técnica de Educação, Ciência, Tecnologia e Inovação de Patrocínio. Aberta a toda a comunidade, ocorrerá nos dias 23/10/2017 a 29/10/2017 e está na sua quinta edição. A SNCT é um evento coordenado pelo Ministério da Ciência, Tecnologia e Inovação (MCTI) e aborda, neste ano, o tema</p>
-                    <h3> <stong>"A Matemática está em tudo”</stong>.</h3> 
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center col-md-offset-2 col-md-8">
+                        <p class="large white">A Semana de Ciência, Tecnologia e Inovação de Patrocínio 2017 (SCTIP 2017) é uma iniciativa da cidade
+                            de Patrocínio/MG relativa à Semana Nacional de Ciência e Tecnologia de 2017 (SNCT 2017) é organizada
+                            pela Câmara Técnica de Educação, Ciência, Tecnologia e Inovação de Patrocínio. Aberta a toda
+                            a comunidade, ocorrerá nos dias 23/10/2017 a 29/10/2017 e está na sua quinta edição. A SNCT é
+                            um evento coordenado pelo Ministério da Ciência, Tecnologia e Inovação (MCTI) e aborda, neste
+                            ano, o tema</p>
+                        <h3>
+                            <stong>"A Matemática está em tudo”</stong>.</h3>
 
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Clients Aside -->
@@ -418,7 +450,7 @@
                         <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>-->
-              <div class="col-md-3 col-sm-6 col-md-offset-3">
+                <div class="col-md-3 col-sm-6 col-md-offset-3">
                     <a href="#">
                     <img src="img/logos/IFTM.jpg" class="img-responsive img-centered" alt="">
                     </a>
@@ -441,10 +473,10 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading white">Fale com a organização</h2>
-                          <h4 class="section-subheading white"> Em caso de dúvida ou sugestão, entre em contato com a organização da SCTIP 2017 <br/> </h4>
-        </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading white">Fale com a organização</h2>
+                    <h4 class="section-subheading white"> Em caso de dúvida ou sugestão, entre em contato com a organização da SCTIP 2017 <br/> </h4>
+                </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -452,21 +484,21 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                  <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Por favor, insira seu nome">
+                                    <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Por favor, insira seu nome">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                  <input type="email" class="form-control" placeholder="Seu email *" id="email" required data-validation-required-message="Por favor, insira seu email">
+                                    <input type="email" class="form-control" placeholder="Seu email *" id="email" required data-validation-required-message="Por favor, insira seu email">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                  <input type="tel" class="form-control" placeholder="Assunto *" id="phone" required data-validation-required-messag="Por Favor, insira o assunto da mensagem.">
+                                    <input type="tel" class="form-control" placeholder="Assunto *" id="phone" required data-validation-required-messag="Por Favor, insira o assunto da mensagem.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                  <textarea class="form-control" placeholder="Sua Mensagem *" id="message" required data-validation-required-message="Por favor, insira sua mensagem"></textarea>
+                                    <textarea class="form-control" placeholder="Sua Mensagem *" id="message" required data-validation-required-message="Por favor, insira sua mensagem"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -482,7 +514,7 @@
         </div>
     </section>
 
-<footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4"><span class="copyright">Copyright &copy; SCTIP 2017</span></div>
@@ -501,9 +533,9 @@
                         <li><a href="https://www.behance.net/marcelolabrito">MarceloLAB Comunicação Visual</a>
                         </li>
                     </ul>
-              </div>
-               <div class="col-md-4"><span class="copyright">Conectar jr.</span></div>
-          </div>
+                </div>
+                <div class="col-md-4"><span class="copyright">Conectar jr.</span></div>
+            </div>
         </div>
     </footer>
 
@@ -529,18 +561,24 @@
                                 <!--<h4>4º ENPE</h4>-->
                                 <p class="item-intro text-muted">4º Encontro de Pesquisa e Extensão</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/enpe-icon1.png" alt="">
-                                <p>O Encontro de Pesquisa e Extensão é uma Iniciativa do IFTM Campus Patrocínio e chega à sua quarta edição em 2017. O evento tem o objetivo de difundir e apresentar à comunidade os projetos e ações de Pesquisa e Extensão do Câmpus e ede toda a região.</p>
-                                <p> <strong>As submissões estão abertas até o dia 02/09.</strong> <br /> As submissões podem ser feitas clicando  <a href=http://www.ifetec.com.br/evento/index.php/enpe/4enpe>AQUI</a>. <br /> Para acessar as normas e modelos de trabalhos, clique <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">AQUI</a>.</p>
+                                <p>O Encontro de Pesquisa e Extensão é uma Iniciativa do IFTM Campus Patrocínio e chega à sua
+                                    quarta edição em 2017. O evento tem o objetivo de difundir e apresentar à comunidade
+                                    os projetos e ações de Pesquisa e Extensão do Câmpus e ede toda a região.</p>
+                                <p> <strong>As submissões estão abertas até o dia 02/09.</strong> <br /> As submissões podem
+                                    ser feitas clicando <a href=http://www.ifetec.com.br/evento/index.php/enpe/4enpe>AQUI</a>.
+                                    <br /> Para acessar as normas e modelos de trabalhos, clique <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">AQUI</a>.</p>
                                 <p>Serão aceitos trabalhos nos seguintes formatos:<br /><br />
-									<strong>Minicurso</strong><br />
-									O arquivo de texto deverá conter entre 2 e 5 páginas;<br />
-									Os Minicursos serão apresentados durante o SCTIP 2017 com duração de 4 horas.<br /><br />
-									<strong>Resumo Expandido</strong><br />
-									O arquivo de texto deverá conter entre 2 e 5 páginas<br />
-									Os Resumos Expandidos serão apresentados na forma de banner (pôster).<br /><br />
-									<strong>Trabalho Completo</strong><br />
-									O arquivo de texto deverá conter entre 7 e 12 páginas<br />
-									Os Trabalhos Completos serão apresentados em Sessões Temáticas através de Comunicação Oral (15 minutos)<br /></p>
+                                    <strong>Minicurso</strong><br /> O arquivo de texto deverá conter entre 2 e 5 páginas;<br
+                                    /> Os Minicursos serão apresentados durante o SCTIP 2017 com duração de 4 horas.<br /><br
+                                    />
+                                    <strong>Resumo Expandido</strong><br /> O arquivo de texto deverá conter entre 2 e 5
+                                    páginas
+                                    <br /> Os Resumos Expandidos serão apresentados na forma de banner (pôster).<br /><br
+                                    />
+                                    <strong>Trabalho Completo</strong><br /> O arquivo de texto deverá conter entre 7 e 12
+                                    páginas
+                                    <br /> Os Trabalhos Completos serão apresentados em Sessões Temáticas através de Comunicação
+                                    Oral (15 minutos)<br /></p>
                                 <!--<ul class="list-inline">
                                   <li>Date: July 2014</li>
                                     <li>Client: Round Icons</li>
@@ -569,10 +607,11 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                              <h2>Feira de Novos Produtos</h2>
-                              <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
+                                <h2>Feira de Novos Produtos</h2>
+                                <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
                                 <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p> A Feira tem por objetivo apresentar produtos, processos, ou serviços que possuam caráter inovador. <br/> <strong>Para ler o regulamento e se insrever, clique </strong><a href=http://www.ifetec.com.br/sctip2017/>AQUI</a>.</p>
+                                <p> A Feira tem por objetivo apresentar produtos, processos, ou serviços que possuam caráter
+                                    inovador. <br/> <strong>Para ler o regulamento e se insrever, clique </strong><a href=http://www.ifetec.com.br/sctip2017/>AQUI</a>.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                             </div>
                         </div>
@@ -600,7 +639,11 @@
                                 <h2>Gincamática</h2>
                                 <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
                                 <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>A Gincamática chega à sua quarta edição em 2017, e já contou com a participação de centenas de estudantes de escolas públicas de Patrocínio. <br/> Seu objetivo é mostrar que a matemática pode ser divertida. Para isso, apresenta provas compostas por jogos e brincadeiras que, além de serem uma abordagem diferente da Matemática, geram a interação e integração entre estudantes do IFTM Campus Patrocínio e os estudantes de outras escolas do município.</p>
+                                <p>A Gincamática chega à sua quarta edição em 2017, e já contou com a participação de centenas
+                                    de estudantes de escolas públicas de Patrocínio. <br/> Seu objetivo é mostrar que a matemática
+                                    pode ser divertida. Para isso, apresenta provas compostas por jogos e brincadeiras que,
+                                    além de serem uma abordagem diferente da Matemática, geram a interação e integração entre
+                                    estudantes do IFTM Campus Patrocínio e os estudantes de outras escolas do município.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                             </div>
                         </div>
@@ -628,8 +671,13 @@
                                 <h2>Olipíada Robô Cerrado</h2>
                                 <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
                                 <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                                <p>Robô Cerrado é um projeto de Extensão do IFTM Campus Patrocínio que tem o objetivo de levar a robótica ao ambiente escolar de estudantes de Ensino Fundamental de Patrocínio. Professores e estudantes bolsistas e voluntários realizam oficinas, workshops e outras atividades durante todo o ano. <br/> Na SCTIP 2017 acontece a Olimpíada Robô Cerrado, uma competição onde estudantes constroem robôs que são testados em provas e aquele que cosneguir atingir melhos os objetivos é premiado.</p>
-                                
+                                <p>Robô Cerrado é um projeto de Extensão do IFTM Campus Patrocínio que tem o objetivo de levar
+                                    a robótica ao ambiente escolar de estudantes de Ensino Fundamental de Patrocínio. Professores
+                                    e estudantes bolsistas e voluntários realizam oficinas, workshops e outras atividades
+                                    durante todo o ano. <br/> Na SCTIP 2017 acontece a Olimpíada Robô Cerrado, uma competição
+                                    onde estudantes constroem robôs que são testados em provas e aquele que cosneguir atingir
+                                    melhos os objetivos é premiado.</p>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                             </div>
                         </div>
@@ -685,7 +733,11 @@
                                 <h2>TTI</h2>
                                 <p class="item-intro text-muted">Trabalho Trimestral Integrado</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>O Trabalho Trimestral Integrado (TTI) foi criado em 2015, e teve sua primeira edição realizada no início de 2016. Já em sua quarta edição, o TTI tem o objetivo de criar atividades que contemplem várias disciplinas dos Cursos Técnicos Integrados ao Ensino Médio do IFTM Campus Patrocínio. <br/> Na SCTIP 2017 serão apresentados os resultados da quinta edição do trabalho. <br/><strong>Participe, prestigie os trablhos de nossos estudantes! </strong> &nbsp;</p>
+                                <p>O Trabalho Trimestral Integrado (TTI) foi criado em 2015, e teve sua primeira edição realizada
+                                    no início de 2016. Já em sua quarta edição, o TTI tem o objetivo de criar atividades
+                                    que contemplem várias disciplinas dos Cursos Técnicos Integrados ao Ensino Médio do IFTM
+                                    Campus Patrocínio. <br/> Na SCTIP 2017 serão apresentados os resultados da quinta edição
+                                    do trabalho. <br/><strong>Participe, prestigie os trablhos de nossos estudantes! </strong>                                    &nbsp;</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                             </div>
                         </div>
@@ -702,7 +754,8 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb"
+        crossorigin="anonymous"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>

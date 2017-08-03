@@ -1,0 +1,9 @@
+/* Card utilizado na parte Evento */
+.card-evento {
+    box-shadow:0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Remoção da borda dos h2 utilizados no card de eventos */
+.remover-margem{
+    margin: 0;
+}
